@@ -1,0 +1,87 @@
+.hidden {
+  display: none;
+}
+
+.Clock {
+  font-size: 100px;
+  text-decoration: underline;
+  font-style: italic;
+  background-color: rgb(35, 34, 34);
+  opacity: 0.7;
+  color: rgb(216, 234, 236);
+  border-radius: 30px;
+  padding: 15px 20px;
+}
+
+body {
+  margin: 0;
+  background-size: cover;
+}
+
+.content-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#login-form {
+  width: 100%;
+  /* display: flex; */
+  justify-content: center;
+}
+
+#weather {
+  font-size: 1.5rem;
+  background-color: white;
+  opacity: 0.6;
+  padding: 4px 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#greeting {
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  font-size: 30px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  margin: 0;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
+#todo-list {
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  width: fit-content;
+  padding: 5px 5px 5px 25px;
+  border-radius: 10px;
+}
+
+.todos {
+  position: absolute;
+  left: 10px;
+  bottom: 10%;
+}
+
+#todo-form input {
+  width: 250px;
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+li {
+  padding: 5px 5px;
+}
+
+li > button {
+  margin-left: 5px;
+}
